@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Minesweeper{% endblock %}
+
+{% block content %}
+<h1>Minesweeper</h1>
+<div id="game-container"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        initMinesweeper();
+    });
+</script>
+{% endblock %}
